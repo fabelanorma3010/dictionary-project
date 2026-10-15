@@ -1,12 +1,24 @@
+import logo from "./logo.png";
 import "./App.css";
-
-function App() {
+import Dictonary from "./Dictionary";
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header"></header>
-      Hello
+      <div classname="container">
+        <header className="App-header">
+          <img
+            src={logo}
+            class
+            Name="App-logo
+img-fluid"
+            alt="logo"
+          />
+        </header>
+        <main>
+          <Dictonary />
+        </main>
+        <footer className="text-center">coded by Norma Fabela</footer>
+      </div>
     </div>
   );
 }
-
-export default App;
