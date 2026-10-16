@@ -1,6 +1,7 @@
 import logo from "./logo.png";
 import "./App.css";
 import Dictonary from "./Dictionary";
+
 export default function App() {
   return (
     <div className="App">
