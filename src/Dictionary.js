@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
-import Results from " ./Results";
-import Photos from " ./Photos";
+import Results from "./Results";
+import Photos from "./photos";
 import "./Dictionary.css";
 
 export default function Dictionary(props) {
@@ -22,11 +22,6 @@ export default function Dictionary(props) {
 
     let apiUrl = "https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}";
     axios.get(apiUrl).then(handleResponse);
-
-    let shecodesapikey = "94fo02cft03bfb4003e2fc3ba1382ef9";
-    let shecodesApiUrl =
-      "https://api.shecodes.io/images/v1/search?query={boks}&key={key}";
-    axios.get(apiUrl).then(displayphotos);
   }
 
   function handleSubmit(event) {
