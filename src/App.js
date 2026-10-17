@@ -7,17 +7,15 @@ export default function App() {
     <div className="App">
       <div classname="container">
         <header className="App-header">
-          <img src={logo} className="app-logo"
-            alt="logo"/>
+          <img src={logo} className="app-logo img-fluid" alt="logo" />
         </header>
         <main>
-          <Dictonary defaultkeyword="sunrise"/>
+          <Dictonary defaultkeyword="sunset" />
         </main>
         <footer className="App-footer">
-        <small> coded by Norma Fabela</small>
+          <small> coded by Norma Fabela</small>
         </footer>
       </div>
     </div>
-
   );
 }
